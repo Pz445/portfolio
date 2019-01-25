@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+  width: 100%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h2 {
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+
+#portrait {
+  display: inline-block;
+  width: 100%;
+  margin: 100px auto;
+  border-radius: ;
+  max-width: 300px;
+  padding-left: 20px;
+  min-width: 120px;
+}
+
+#about, #footer {
+  background: #9099a2;
+}
+
+#about-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#icons, #social-icons {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#project-gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#about-left, #about-right {
+  width: 50%;
+  text-align: center;
+}
+
+#about-left {
+  /* text-align: right; */
+}
+
+#about-right {
+  align-self: center;
+  padding: 40px;
+  color: #fafafa;
+}
+
+#about-right h1 {
+  margin-bottom: 0;
+}
+
+#about-right h2 {
+  margin-top: 0;
+  font-size: 1em;
+  color: #EAEEC8;
+}
+
+#icons {
+  max-width: 500px;
+}
+
+#technologies h2, #projects h2, #social h2, #footer p {
+  text-align: center;
+  padding: 0 10px 40px;
+}
+
+#technologies, #social {
+  background: #d5d5d5;
+  padding: 60px 0;
+}
+
+#projects {
+  padding: 60px 0;
+}
+
+i {
+  font-size: 7em;
+  color: black;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  height: auto;
+  padding: 5px;
+}
+
+i:hover {
+  color: #96858f;
+  transform: scale(.95);
+}
+
+@media only screen and (max-width: 400px) {
+
+  #portrait {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 0;
+    width: 150px;
+    height: auto;
+  }
+
+  #about-inner {
+    flex-direction: column;
+  }
+
+  #about-right {
+    padding: 5px;
+  }
+
+  #about-left {
+    width: 100%;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  #icons, #social-icons {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: no-wrap;
+  }
+}
+
+#footer {
+  font-weight: 400;
+  color: #EAEEC8;
+  height: 40px;
+}
+
+#footer p {
+  margin: 0;
+  padding: 10px 0 0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: center;
+  line-height: normal;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  #project-gallery, #social-icons {
+    width: 440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    grid-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #project-gallery {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+  }
+
+  h1 {
+    line-height: 1;
+  }
+}
