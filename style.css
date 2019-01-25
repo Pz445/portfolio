@@ -163,7 +163,7 @@ i:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   #project-gallery, #social-icons {
     width: 440px;
     margin: 0 auto;
@@ -174,7 +174,7 @@ i:hover {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #project-gallery {
     width: 300px;
     margin: 0 auto;
