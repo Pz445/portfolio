@@ -176,7 +176,7 @@ i:hover {
 
 @media only screen and (max-width: 600px) {
   #project-gallery {
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
