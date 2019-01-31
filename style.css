@@ -97,6 +97,10 @@ h2 {
   padding: 60px 0;
 }
 
+.project-img {
+  max-width: 300px;
+}
+
 i {
   font-size: 7em;
   color: black;
@@ -106,10 +110,10 @@ i {
   padding: 5px;
 }
 
-i:hover {
+/* i:hover {
   color: #96858f;
   transform: scale(.95);
-}
+} */
 
 @media only screen and (max-width: 400px) {
 
