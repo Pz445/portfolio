@@ -99,10 +99,11 @@ h2 {
 
 .project-img {
   max-width: 400px;
-  max-height: 206px;
+  /* max-height: 206px; */
   padding: 5px;
   opacity: .65;
   transition: ease-in 0.2s;
+  object-fit: cover;
 }
 
 .project-img:hover {
@@ -188,6 +189,11 @@ i {
     justify-items: center;
     grid-gap: 10px;
   }
+
+  .project-img {
+    opacity: 1;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
